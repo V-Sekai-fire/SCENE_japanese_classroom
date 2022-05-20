@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://djhdev82pkvqb"]
+
+[ext_resource type="PackedScene" uid="uid://8kgg0stdgthn" path="res://morning_in_a_cafe/art/scene.gltf" id="1_sp78o"]
+
+[node name="scene" instance=ExtResource( "1_sp78o" )]
