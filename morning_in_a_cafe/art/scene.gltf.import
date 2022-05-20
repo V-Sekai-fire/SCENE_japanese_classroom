@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://8kgg0stdgthn"
+uid="uid://dyl3ow0qo6bp6"
 path="res://.godot/imported/scene.gltf-974043ab804eaa5ec83c0d2eb99ecf81.scn"
 
 [deps]
@@ -20,20 +20,20 @@ nodes/generate_physics=false
 nodes/generate_navmesh=0
 physics/body_type=0
 physics/shape_type=0
-decomposition/advanced=false
-decomposition/precision=5
+decomposition/advanced=true
+decomposition/precision=10
 decomposition/max_concavity=1.0
 decomposition/symmetry_planes_clipping_bias=0.05
 decomposition/revolution_axes_clipping_bias=0.05
 decomposition/min_volume_per_convex_hull=0.0001
 decomposition/resolution=10000
-decomposition/max_num_vertices_per_convex_hull=32
+decomposition/max_num_vertices_per_convex_hull=128
 decomposition/plane_downsampling=4
 decomposition/convexhull_downsampling=4
 decomposition/normalize_mesh=false
-decomposition/mode=0
+decomposition/mode=1
 decomposition/convexhull_approximation=true
-decomposition/max_convex_hulls=1
+decomposition/max_convex_hulls=100
 decomposition/project_hull_vertices=true
 primitive/size=Vector3(2, 2, 2)
 primitive/height=1.0
