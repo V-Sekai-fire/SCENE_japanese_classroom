@@ -13,7 +13,6 @@ alpha_antialiasing_mode = 0
 cull_mode = 2
 vertex_color_use_as_albedo = true
 albedo_texture = ExtResource( "3_l18i4" )
-albedo_tex_force_srgb = true
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rlc5f"]
 size = Vector3(18.758, 1, 20.5251)
@@ -28,13 +27,20 @@ vskeditor_preview_camera_path = NodePath("Camera3D")
 vskeditor_pipeline_paths = [NodePath("UroPipeline")]
 
 [node name="Sketchfab_model" parent="." index="0"]
-transform = Transform3D(1, 0, 0, 0, 2.22045e-16, 1, 0, -1, 2.22045e-16, 0.0769908, -0.859746, 0.582725)
+transform = Transform3D(1, 0, 0, 0, 2.22045e-16, 1, 0, -1, 2.22045e-16, 0.0769908, -1.14463, 0.582725)
 
 [node name="Object_4" parent="Sketchfab_model/root/GLTF_SceneRootNode/chara_0" index="0"]
 surface_material_override/0 = SubResource( "StandardMaterial3D_wjunj" )
 
+[node name="Ground" type="StaticBody3D" parent="Sketchfab_model" index="1"]
+transform = Transform3D(1, 0, 0, 0, 2.22045e-16, -1, 0, 1, 2.22045e-16, 0, 0, -1.48919)
+input_ray_pickable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Ground" index="0"]
+shape = SubResource( "BoxShape3D_rlc5f" )
+
 [node name="Camera3D" type="Camera3D" parent="." index="1"]
-transform = Transform3D(0.905214, -0.0966627, 0.413816, 0, 0.973786, 0.227465, -0.424956, -0.205905, 0.881485, -0.327104, 1.69221, -0.375266)
+transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.28716, 0.615608, 0.0617027)
 fov = 60.0
 
 [node name="UroPipeline" type="Node" parent="." index="2"]
@@ -43,9 +49,3 @@ database_id = "92950fa9-ce11-4f87-8775-07239a603685"
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="3"]
 transform = Transform3D(1, 0, 0, 0, 0.480162, 0.87718, 0, -0.87718, 0.480162, 0, 0.708959, 1.76703)
-
-[node name="Ground" type="StaticBody3D" parent="." index="4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0769908, -1.45737, 0.582725)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" index="0"]
-shape = SubResource( "BoxShape3D_rlc5f" )
