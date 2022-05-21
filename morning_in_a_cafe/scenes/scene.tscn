@@ -41,7 +41,7 @@ input_ray_pickable = false
 shape = SubResource( "BoxShape3D_rlc5f" )
 
 [node name="Camera3D" type="Camera3D" parent="." index="1"]
-transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.28716, 0.615608, 0.0617027)
+transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.28716, 0.615608, 0.182869)
 fov = 60.0
 
 [node name="UroPipeline" type="Node" parent="." index="2"]
