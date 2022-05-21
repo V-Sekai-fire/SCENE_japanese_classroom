@@ -194,7 +194,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="SK_template"
+config/name="SCENE_morning_in_a_cafe"
 config/features=PackedStringArray("4.0")
 
 [assets]
