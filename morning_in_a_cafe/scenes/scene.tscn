@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://djhdev82pkvqb"]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="PackedScene" uid="uid://dyl3ow0qo6bp6" path="res://morning_in_a_cafe/art/scene.gltf" id="1_sp78o"]
 [ext_resource type="Script" path="res://addons/vsk_map/vsk_map_definition.gd" id="2_5kvub"]
 [ext_resource type="Texture2D" uid="uid://c7n6vpqvsc5wm" path="res://morning_in_a_cafe/art/textures/chara_baseColor.png" id="3_l18i4"]
 [ext_resource type="Script" path="res://addons/vsk_importer_exporter/vsk_uro_pipeline.gd" id="3_liqdd"]
+
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wjunj"]
 resource_name = "chara"
