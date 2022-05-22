@@ -102,9 +102,7 @@ func _recreateHttp():
 func _ready():
 	add_to_group("TextureRectUrl")
 	add_child(progress_texture, true)
-
-	stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	self.ignore_texture_size = false
+	self.ignore_texture_size = true
 	progress_texture.hide()
 	_recreateHttp()
 	
