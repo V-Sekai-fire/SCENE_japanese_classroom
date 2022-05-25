@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dyl3ow0qo6bp6"
+uid="uid://bre4dvmtfdvam"
 path="res://.godot/imported/scene.gltf-974043ab804eaa5ec83c0d2eb99ecf81.scn"
 
 [deps]
@@ -16,10 +16,10 @@ dest_files=["res://.godot/imported/scene.gltf-974043ab804eaa5ec83c0d2eb99ecf81.s
 nodes/root_type="Node3D"
 nodes/root_name="Scene Root"
 nodes/root_scale=1.0
-nodes/generate_physics=false
+nodes/generate_physics=true
 nodes/generate_navmesh=0
 physics/body_type=0
-physics/shape_type=0
+physics/shape_type=2
 decomposition/advanced=true
 decomposition/precision=10
 decomposition/max_concavity=1.0
