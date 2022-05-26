@@ -21,7 +21,7 @@ vskeditor_pipeline_paths = [NodePath("UroPipeline")]
 shape = SubResource( "BoxShape3D_rlc5f" )
 
 [node name="Camera3D" type="Camera3D" parent="." index="1"]
-transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.287, 2.059, 0.183)
+transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, 0.214, -0.22, 0.183)
 fov = 60.0
 
 [node name="UroPipeline" type="Node" parent="." index="2"]
@@ -30,3 +30,6 @@ database_id = "92950fa9-ce11-4f87-8775-07239a603685"
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="3"]
 transform = Transform3D(1, 0, 0, 0, 0.480162, 0.87718, 0, -0.87718, 0.480162, 0, 0.708959, 1.76703)
+
+[node name="CafeOrigin" parent="." index="4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.41331, -1.65391, 0.600048)
