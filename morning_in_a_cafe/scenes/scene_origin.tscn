@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://co6xt0f6iawqt"]
 
 [ext_resource type="Script" path="res://addons/vsk_map/vsk_map_definition.gd" id="1_qx1io"]
-[ext_resource type="PackedScene" uid="uid://dycnen1f1ivml" path="res://morning_in_a_cafe/scenes/scene.tscn" id="1_to4l6"]
 [ext_resource type="Script" path="res://addons/vsk_importer_exporter/vsk_uro_pipeline.gd" id="2_itehi"]
+[ext_resource type="PackedScene" uid="uid://dq4krh6jchsqo" path="res://morning_in_a_cafe/art/cafe/morning_in_a_cafe.blend" id="3_gq1pb"]
 
 [node name="Node3D" type="Node3D"]
 script = ExtResource( "1_qx1io" )
@@ -26,7 +26,6 @@ transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0
 visible = false
 fov = 60.0
 
-[node name="scene" parent="." instance=ExtResource( "1_to4l6" )]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.67463, 0)
+[node name="morning_in_a_cafe" parent="." instance=ExtResource( "3_gq1pb" )]
 
-[editable path="scene"]
+[editable path="morning_in_a_cafe"]
