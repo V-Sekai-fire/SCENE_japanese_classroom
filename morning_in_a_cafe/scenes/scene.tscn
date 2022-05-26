@@ -1,18 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://ccn44p5lqhkfe"]
+[gd_scene load_steps=5 format=3 uid="uid://dycnen1f1ivml"]
 
 [ext_resource type="PackedScene" uid="uid://dq4krh6jchsqo" path="res://morning_in_a_cafe/art/cafe/morning_in_a_cafe.blend" id="1_sp78o"]
 [ext_resource type="Script" path="res://addons/vsk_map/vsk_map_definition.gd" id="2_5kvub"]
-[ext_resource type="Texture2D" path="res://morning_in_a_cafe/art/textures/chara_baseColor.png" id="3_l18i4"]
 [ext_resource type="Script" path="res://addons/vsk_importer_exporter/vsk_uro_pipeline.gd" id="3_liqdd"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wjunj"]
-resource_name = "chara"
-transparency = 2
-alpha_scissor_threshold = 0.5
-alpha_antialiasing_mode = 0
-cull_mode = 2
-vertex_color_use_as_albedo = true
-albedo_texture = ExtResource( "3_l18i4" )
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rlc5f"]
 size = Vector3(18.758, 1, 20.5251)
@@ -27,21 +17,11 @@ vskeditor_preview_type = 0
 vskeditor_preview_camera_path = NodePath("Camera3D")
 vskeditor_pipeline_paths = [NodePath("UroPipeline")]
 
-[node name="Sketchfab_model" parent="." index="0"]
-transform = Transform3D(1, 0, 0, 0, 2.22045e-16, 1, 0, -1, 2.22045e-16, 0.0769908, -1.14463, 0.582725)
-
-[node name="Object_4" parent="Sketchfab_model/root/GLTF_SceneRootNode/chara_0" index="0"]
-surface_material_override/0 = SubResource( "StandardMaterial3D_wjunj" )
-
-[node name="Ground" type="StaticBody3D" parent="Sketchfab_model" index="1"]
-transform = Transform3D(1, 0, 0, 0, 2.22045e-16, -1, 0, 1, 2.22045e-16, 0, 0, -0.269202)
-input_ray_pickable = false
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Ground" index="0"]
+[node name="Sketchfab_model@Ground@CollisionShape3D" type="CollisionShape3D" parent="." index="0"]
 shape = SubResource( "BoxShape3D_rlc5f" )
 
 [node name="Camera3D" type="Camera3D" parent="." index="1"]
-transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.28716, 0.615608, 0.182869)
+transform = Transform3D(0.881728, -0.144983, 0.448927, 0, 0.951605, 0.307325, -0.471758, -0.270977, 0.839057, -1.287, 2.059, 0.183)
 fov = 60.0
 
 [node name="UroPipeline" type="Node" parent="." index="2"]
