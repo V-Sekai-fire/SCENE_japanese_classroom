@@ -195,6 +195,7 @@ _global_script_class_icons={
 [application]
 
 config/name="SCENE_morning_in_a_cafe"
+run/main_scene="res://morning_in_a_cafe/scenes/scene.tscn"
 config/features=PackedStringArray("4.0")
 
 [assets]
@@ -232,6 +233,7 @@ GodotUroData="*res://addons/godot_uro/godot_uro_data.gd"
 GodotUro="*res://addons/godot_uro/godot_uro.gd"
 ScreenshotManager="*res://addons/sar1_screenshot_manager/screenshot_manager.gd"
 VSKAccountManager="*res://addons/vsk_manager/vsk_account_manager.gd"
+FadeManager="*res://addons/fade_manager/fade_manager.gd"
 
 [editor_plugins]
 
