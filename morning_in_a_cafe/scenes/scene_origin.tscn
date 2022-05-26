@@ -27,5 +27,6 @@ visible = false
 fov = 60.0
 
 [node name="scene" parent="." instance=ExtResource( "1_to4l6" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.67463, 0)
 
 [editable path="scene"]
