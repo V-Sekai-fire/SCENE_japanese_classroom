@@ -33,3 +33,5 @@ transform = Transform3D(1, 0, 0, 0, 0.480162, 0.87718, 0, -0.87718, 0.480162, 0,
 
 [node name="CafeOrigin" parent="." index="4"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.41331, -1.65391, 0.600048)
+
+[node name="SceneOrigin" type="Node3D" parent="." index="5"]
