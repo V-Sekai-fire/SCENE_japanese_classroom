@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dq4krh6jchsqo" path="res://morning_in_a_cafe/art/cafe/morning_in_a_cafe.blend" id="3_gq1pb"]
 
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10159, 0)
 script = ExtResource( "1_qx1io" )
 map_resources = []
 entity_instance_list = []
