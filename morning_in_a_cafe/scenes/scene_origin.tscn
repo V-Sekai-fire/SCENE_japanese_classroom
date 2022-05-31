@@ -28,5 +28,3 @@ fov = 60.0
 
 [node name="morning_in_a_cafe" parent="." instance=ExtResource( "3_gq1pb" )]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.05351, 0)
-
-[editable path="morning_in_a_cafe"]
