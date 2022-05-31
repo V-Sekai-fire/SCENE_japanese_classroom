@@ -27,4 +27,4 @@ visible = false
 fov = 60.0
 
 [node name="morning_in_a_cafe" parent="." instance=ExtResource( "3_gq1pb" )]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.05351, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.663119, -1.16058, -1.39938)
