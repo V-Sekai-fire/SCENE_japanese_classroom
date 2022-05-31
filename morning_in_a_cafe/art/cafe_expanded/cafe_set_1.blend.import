@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dq4krh6jchsqo"
-path="res://.godot/imported/morning_in_a_cafe.blend-1367aa51a42c0bd00bc47ab710087199.scn"
+uid="uid://7b2yut83wqbd"
+path="res://.godot/imported/cafe_set_1.blend-c07237d18f43308868d3de56ff7e26ce.scn"
 
 [deps]
 
-source_file="res://morning_in_a_cafe/art/cafe/morning_in_a_cafe.blend"
-dest_files=["res://.godot/imported/morning_in_a_cafe.blend-1367aa51a42c0bd00bc47ab710087199.scn"]
+source_file="res://morning_in_a_cafe/art/cafe_expanded/cafe_set_1.blend"
+dest_files=["res://.godot/imported/cafe_set_1.blend-c07237d18f43308868d3de56ff7e26ce.scn"]
 
 [params]
 
@@ -50,7 +50,7 @@ animation/import=true
 animation/fps=30
 import_script/path=""
 _subresources={}
-blender/nodes/visible=1
+blender/nodes/visible=2
 blender/nodes/punctual_lights=true
 blender/nodes/cameras=true
 blender/nodes/custom_properties=true

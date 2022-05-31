@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://swrunvx82two"
+path.s3tc="res://.godot/imported/Building_Baked_baseColor.png-3ddd5deaf041092a05e9196c1a6dda15.s3tc.ctex"
+path.etc2="res://.godot/imported/Building_Baked_baseColor.png-3ddd5deaf041092a05e9196c1a6dda15.etc2.ctex"
+metadata={
+"imported_formats": ["bptc", "s3tc", "etc2"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://morning_in_a_cafe/art/cafe_expanded/textures/Building_Baked_baseColor.png"
+dest_files=["res://.godot/imported/Building_Baked_baseColor.png-3ddd5deaf041092a05e9196c1a6dda15.s3tc.ctex", "res://.godot/imported/Building_Baked_baseColor.png-3ddd5deaf041092a05e9196c1a6dda15.etc2.ctex"]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/bptc_ldr=2
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

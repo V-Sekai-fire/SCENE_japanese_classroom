@@ -11,7 +11,7 @@ entity_instance_list = []
 entity_instance_properties_list = []
 database_id = ""
 vskeditor_preview_type = 0
-vskeditor_preview_camera_path = NodePath("scene/Camera3D")
+vskeditor_preview_camera_path = NodePath("Camera3D")
 vskeditor_pipeline_paths = [NodePath("UroPipeline")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -27,5 +27,6 @@ visible = false
 fov = 60.0
 
 [node name="morning_in_a_cafe" parent="." instance=ExtResource( "3_gq1pb" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.05351, 0)
 
 [editable path="morning_in_a_cafe"]
