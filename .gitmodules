@@ -70,3 +70,6 @@
 [submodule "addons/sar1_vr_manager"]
 	path = addons/sar1_vr_manager
 	url = https://github.com/V-Sekai/sar1_vr_manager
+[submodule "addons/snappy"]
+	path = addons/snappy
+	url = https://github.com/jgillich/godot-snappy.git
