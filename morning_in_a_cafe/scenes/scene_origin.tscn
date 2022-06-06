@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://co6xt0f6iawqt"]
+[gd_scene load_steps=7 format=3 uid="uid://dcisk3idurpu1"]
 
 [ext_resource type="Script" path="res://addons/vsk_map/vsk_map_definition.gd" id="1_qx1io"]
 [ext_resource type="Script" path="res://addons/vsk_importer_exporter/vsk_uro_pipeline.gd" id="2_itehi"]
@@ -23,13 +23,6 @@ sdfgi_cascade0_distance = 2000.0
 sdfgi_max_distance = 4000.0
 sdfgi_y_scale = 0
 glow_enabled = true
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_my6uv"]
-resource_name = "Building_Baked.003"
-cull_mode = 2
-vertex_color_use_as_albedo = true
-albedo_color = Color(0.478431, 0.160784, 0.0745098, 1)
-roughness = 0.5
 
 [node name="Node3D" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10159, 0)
@@ -59,15 +52,5 @@ fov = 60.0
 
 [node name="morning_in_a_cafe" parent="." instance=ExtResource( "3_gq1pb" )]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.663119, -1.16058, -1.39938)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.918958, -0.400258, 1.89296)
-material_override = SubResource( "StandardMaterial3D_my6uv" )
-size = Vector3(7.06067, 4, 1)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="."]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3.11214, -0.250947, 2.33766)
-material_override = SubResource( "StandardMaterial3D_my6uv" )
-size = Vector3(7.06067, 6.21518, 1)
 
 [editable path="morning_in_a_cafe"]
