@@ -1,0 +1,94 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3uhbsceh55aa"]
+
+[ext_resource type="PackedScene" uid="uid://ca2cyqubrnrhl" path="res://morning_in_a_cafe/art/japanese_classroom/scene.gltf" id="1_wfueg"]
+[ext_resource type="LightmapGIData" uid="uid://b7jvbtrft7xf3" path="res://morning_in_a_cafe/scenes/classroom_anime.lmbake" id="2_gekve"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_66ffq"]
+rayleigh_color = Color(0.643137, 0.286275, 0, 1)
+
+[sub_resource type="Sky" id="Sky_g3ucu"]
+sky_material = SubResource("PhysicalSkyMaterial_66ffq")
+
+[sub_resource type="Environment" id="Environment_5bx4v"]
+background_mode = 2
+sky = SubResource("Sky_g3ucu")
+tonemap_mode = 2
+sdfgi_read_sky_light = false
+sdfgi_cascades = 6
+sdfgi_min_cell_size = 0.976563
+sdfgi_cascade0_distance = 62.5
+sdfgi_max_distance = 4000.0
+sdfgi_y_scale = 2
+glow_enabled = true
+
+[node name="scene" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_5bx4v")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+light_bake_mode = 1
+shadow_enabled = true
+directional_shadow_max_distance = 250.0
+
+[node name="scene" parent="." instance=ExtResource("1_wfueg")]
+
+[node name="VENTANA_CRISTAL_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL1_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL1" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL2_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL2" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL3_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL3" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL4_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL4" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL5_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL5" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL6_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL6" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL7_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL7" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL8_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL8" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL9_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL9" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL10_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL10" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL11_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL11" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL12_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL12" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL13_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL13" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL14_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL14" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL15_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL15" index="0"]
+visible = false
+
+[node name="VENTANA_CRISTAL31_VENTANAS_0" parent="scene/Sketchfab_model/74190c655c284c05ae68ac97ed89578dfbx/RootNode/VENTANA_CRISTAL31" index="0"]
+transform = Transform3D(1, 5.99706e-24, 1.45519e-11, -5.18022e-23, 1, 3.30872e-24, -1.49012e-08, 1.27055e-21, 1, 0, 0, 0)
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
+bounces = 4
+directional = true
+environment_mode = 1
+light_data = ExtResource("2_gekve")
+
+[editable path="scene"]
