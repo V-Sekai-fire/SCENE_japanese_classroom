@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3lsjbhml635d"
-path.s3tc="res://.godot/imported/StingrayPBS1_metallicRoughness.png-572c2adfc55ae0186d5e47c4da4e835c.s3tc.ctex"
-path.etc2="res://.godot/imported/StingrayPBS1_metallicRoughness.png-572c2adfc55ae0186d5e47c4da4e835c.etc2.ctex"
+path.s3tc="res://.godot/imported/StingrayPBS1_metallicRoughness.png-46d075c0addb886f934d89f53c609110.s3tc.ctex"
+path.etc2="res://.godot/imported/StingrayPBS1_metallicRoughness.png-46d075c0addb886f934d89f53c609110.etc2.ctex"
 metadata={
 "imported_formats": ["bptc", "s3tc", "etc2"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://morning_in_a_cafe/art/japanese_classroom/textures/StingrayPBS1_metallicRoughness.png"
-dest_files=["res://.godot/imported/StingrayPBS1_metallicRoughness.png-572c2adfc55ae0186d5e47c4da4e835c.s3tc.ctex", "res://.godot/imported/StingrayPBS1_metallicRoughness.png-572c2adfc55ae0186d5e47c4da4e835c.etc2.ctex"]
+source_file="res://japanese_classroom/art/japanese_classroom/textures/StingrayPBS1_metallicRoughness.png"
+dest_files=["res://.godot/imported/StingrayPBS1_metallicRoughness.png-46d075c0addb886f934d89f53c609110.s3tc.ctex", "res://.godot/imported/StingrayPBS1_metallicRoughness.png-46d075c0addb886f934d89f53c609110.etc2.ctex"]
 
 [params]
 

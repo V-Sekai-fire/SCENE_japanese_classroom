@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://c3uhbsceh55aa"]
+[gd_scene load_steps=6 format=3 uid="uid://cmbeunxmka2fb"]
 
-[ext_resource type="PackedScene" uid="uid://ca2cyqubrnrhl" path="res://morning_in_a_cafe/art/japanese_classroom/scene.gltf" id="1_wfueg"]
-[ext_resource type="LightmapGIData" uid="uid://b7jvbtrft7xf3" path="res://morning_in_a_cafe/scenes/classroom_anime.lmbake" id="2_gekve"]
+[ext_resource type="PackedScene" path="res://japanese_classroom/art/japanese_classroom/scene.gltf" id="1_wfueg"]
+[ext_resource type="LightmapGIData" path="res://japanese_classroom/scenes/classroom_anime.lmbake" id="2_gekve"]
 
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_66ffq"]
 rayleigh_color = Color(0.643137, 0.286275, 0, 1)

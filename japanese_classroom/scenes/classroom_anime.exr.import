@@ -1,0 +1,28 @@
+[remap]
+
+importer="2d_array_texture"
+type="CompressedTexture2DArray"
+uid="uid://vmri7vj771b0"
+path.etc2="res://.godot/imported/classroom_anime.exr-213ad7c591a5c6cebd722279ec1fd506.etc2.ctexarray"
+path.s3tc="res://.godot/imported/classroom_anime.exr-213ad7c591a5c6cebd722279ec1fd506.s3tc.ctexarray"
+metadata={
+"imported_formats": ["bptc", "etc2", "s3tc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://japanese_classroom/scenes/classroom_anime.exr"
+dest_files=["res://.godot/imported/classroom_anime.exr-213ad7c591a5c6cebd722279ec1fd506.etc2.ctexarray", "res://.godot/imported/classroom_anime.exr-213ad7c591a5c6cebd722279ec1fd506.s3tc.ctexarray"]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/bptc_ldr=0
+compress/channel_pack=1
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/horizontal=1
+slices/vertical=16

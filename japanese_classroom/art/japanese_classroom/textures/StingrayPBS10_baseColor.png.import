@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pv7wtl1pey4b"
-path.s3tc="res://.godot/imported/StingrayPBS2_baseColor.png-40d8d53e8ae73d7c63e707bab606ae92.s3tc.ctex"
-path.etc2="res://.godot/imported/StingrayPBS2_baseColor.png-40d8d53e8ae73d7c63e707bab606ae92.etc2.ctex"
+uid="uid://2f6ifeyplffm"
+path.s3tc="res://.godot/imported/StingrayPBS10_baseColor.png-5838bad6b791eb1bdab9ba21335fbd0a.s3tc.ctex"
+path.etc2="res://.godot/imported/StingrayPBS10_baseColor.png-5838bad6b791eb1bdab9ba21335fbd0a.etc2.ctex"
 metadata={
 "imported_formats": ["bptc", "s3tc", "etc2"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://morning_in_a_cafe/art/japanese_classroom/textures/StingrayPBS2_baseColor.png"
-dest_files=["res://.godot/imported/StingrayPBS2_baseColor.png-40d8d53e8ae73d7c63e707bab606ae92.s3tc.ctex", "res://.godot/imported/StingrayPBS2_baseColor.png-40d8d53e8ae73d7c63e707bab606ae92.etc2.ctex"]
+source_file="res://japanese_classroom/art/japanese_classroom/textures/StingrayPBS10_baseColor.png"
+dest_files=["res://.godot/imported/StingrayPBS10_baseColor.png-5838bad6b791eb1bdab9ba21335fbd0a.s3tc.ctex", "res://.godot/imported/StingrayPBS10_baseColor.png-5838bad6b791eb1bdab9ba21335fbd0a.etc2.ctex"]
 
 [params]
 

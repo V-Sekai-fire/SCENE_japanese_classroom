@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ca2cyqubrnrhl"
-path="res://.godot/imported/scene.gltf-3bfa74183621851dac8f5ce1ad22edec.scn"
+path="res://.godot/imported/scene.gltf-0b47039c7e0bfdf9a536e06d8b344a41.scn"
 
 [deps]
 
-source_file="res://morning_in_a_cafe/art/japanese_classroom/scene.gltf"
-dest_files=["res://.godot/imported/scene.gltf-3bfa74183621851dac8f5ce1ad22edec.scn"]
+source_file="res://japanese_classroom/art/japanese_classroom/scene.gltf"
+dest_files=["res://.godot/imported/scene.gltf-0b47039c7e0bfdf9a536e06d8b344a41.scn"]
 
 [params]
 
